@@ -25,6 +25,9 @@ python tools/wav2lip.py \
 - outfile: 合成的视频
 - face_enhancement: 添加人脸增强，不添加参数默认为不使用增强功能
 
+注意：
+  当前模型要执行成功，显卡内存需要在4G以上！
+
 ### 2.2 训练
 1. 我们的模型是基于LRS2数据集训练的。可以参考[这里](https://github.com/Rudrabha/Wav2Lip#training-on-datasets-other-than-lrs2)获得在其它训练集上进行训练的一些建议。
 
